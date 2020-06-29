@@ -21,6 +21,7 @@ import { ReservationAddComponent } from './components/reservations/reservation-a
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxLoadingModule } from 'ngx-loading';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { NgxLoadingModule } from 'ngx-loading';
     HomePageComponent,
     ReservationComponent,
     ReservationAddComponent,
+    FooterComponent,
     
     
   ],
