@@ -1,9 +1,9 @@
 export default{
 
   database: {
-    host: 'sql7.freemysqlhosting.net',
-    user: 'sql7350295',
-    password: '81XhHzncme',
-    database: 'sql7350295'
+    host: 'serwer2094619.home.pl/sql',
+    user: '33120168_flight_system',
+    password: 'URmaEmk!ZhAN3cM',
+    database: '33120168_flight_system'
   }
 }

@@ -1,3 +1,3 @@
 export const environment = {
-API_URL: `https://flight-system-server.herokuapp.com`
+API_URL: `http://localhost:3000`
 }
