@@ -20,8 +20,8 @@ export class TouristAddComponent implements OnInit {
   isTourist: boolean;
   loading:  boolean;
   id_flight: number;
-  departure_date: Date;
-  arrival_date: Date;
+  departure_date: string;
+  arrival_date: string;
   edit: boolean = false;
 
   tourist: Tourist = {
@@ -114,7 +114,7 @@ export class TouristAddComponent implements OnInit {
                     }
               })
       }else{
-        this.message.error("You exist in the database");
+        this.message.error("You are sign in the database");
       }
       this.loading = false;
       }, 5000);
